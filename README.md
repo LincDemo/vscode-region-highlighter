@@ -178,25 +178,9 @@ The decoration strategy chosen when the length of region blocks in the editor ex
 
 ## Release Notes
 
-## [1.0.0] - 2022-01-02
+## [1.0.2] - 2025-04-09
 
-- first release!
-
-## [1.0.1] - 2022-01-05
-
-- `docs`: change description of Language support
-
-- `feat`: support match language of golang and rust
-
----
-
-## License
-
-[MIT](https://github.com/Wiensss/vscode-region-highlighter/blob/1.0.0/LICENSE)
-
----
-
-## Linc Fork Version
+by @LincZero
 
 修复了 #7
 
@@ -212,8 +196,26 @@ vsce package
 y
 ```
 
-安装：
+fork版本的安装：
 
 扩展面板右上角 > 从 `.vsix` 中下载
 
 或 Ctrl Shift P: `Extension: install from VSIX...` | `扩展: 从 VSIX 安装`
+
+## [1.0.2] - 2022-01-05
+
+- `docs`: change description of Language support
+
+- `feat`: support match language of golang and rust
+
+## [1.0.0] - 2022-01-02
+
+- first release!
+
+---
+
+## License
+
+[MIT](https://github.com/Wiensss/vscode-region-highlighter/blob/1.0.0/LICENSE)
+
+---
