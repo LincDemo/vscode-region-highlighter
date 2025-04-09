@@ -1,4 +1,4 @@
-// expression = /^[ ]*\/\/\s*(?:(#region|<editor-fold>)|#endregion|<\/editor-fold>)(?:[ ]+\S*)*$|/mg
+// expression = /^[  \t]*\/\/\s*(?:(#region|<editor-fold>)|#endregion|<\/editor-fold>)(?:[ ]+\S*)*$|/mg
 
 true
 //#region

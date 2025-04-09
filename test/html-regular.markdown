@@ -1,4 +1,4 @@
-<!-- expression = /^[ ]*<!--\s*(?:(#region)|#endregion)(?:[^0-9a-zA-Z\n].*)*-->(?:.*)*$/mg -->
+<!-- expression = /^[  \t]*<!--\s*(?:(#region)|#endregion)(?:[^0-9a-zA-Z\n].*)*-->(?:.*)*$/mg -->
 
 true
 <!-- #region -->

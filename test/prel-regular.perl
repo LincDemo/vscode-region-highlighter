@@ -1,4 +1,4 @@
-# expression = /(?:^[ ]*(#region)(?:[^0-9a-zA-Z\n].*)*$|^(=pod)$)|^[ ]*#endregion(?:[^0-9a-zA-Z\n].*)*$|^=cut$/mg
+# expression = /(?:^[  \t]*(#region)(?:[^0-9a-zA-Z\n].*)*$|^(=pod)$)|^[  \t]*#endregion(?:[^0-9a-zA-Z\n].*)*$|^=cut$/mg
 
 true
 =pod

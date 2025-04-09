@@ -1,4 +1,4 @@
-// expression = /^[ ]*(?:(#pragma region)|#pragma endregion)(?:[^0-9a-zA-Z\n].*)*$/mg
+// expression = /^[  \t]*(?:(#pragma region)|#pragma endregion)(?:[^0-9a-zA-Z\n].*)*$/mg
 
 true
 #pragma region

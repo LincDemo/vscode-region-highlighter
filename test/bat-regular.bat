@@ -1,4 +1,4 @@
-// expression = /^[ ]*(?:::|REM)\s*(?:(#region)|#endregion).*$/mg
+// expression = /^[  \t]*(?:::|REM)\s*(?:(#region)|#endregion).*$/mg
 
 true
 ::#region

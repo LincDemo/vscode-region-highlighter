@@ -87,7 +87,7 @@ export function execLanguageRegExp(language: string) {
     case EnumLanguage.PYTHON:
       return /^[ \t]*(?:(#\s*region)|#\s*endregion)(?:[^0-9a-zA-Z\n].*)*$/gm
     case EnumLanguage.PERL:
-      return /(?:^[ \t]*(#region)(?:[^0-9a-zA-Z\n].*)*$|^(=pod)$)|^[ ]*#endregion(?:[^0-9a-zA-Z\n].*)*$|^=cut$/gm
+      return /(?:^[ \t]*(#region)(?:[^0-9a-zA-Z\n].*)*$|^(=pod)$)|^[ \t]*#endregion(?:[^0-9a-zA-Z\n].*)*$|^=cut$/gm
     case EnumLanguage.JAVA:
       // eslint-disable-next-line max-len
       return /^[ \t]*\/\/\s*(?:(#region(?:[^0-9a-zA-Z\n].*)*|<editor-fold>(?:[^\n]*))|#endregion(?:[^0-9a-zA-Z\n].*)*|<\/editor-fold>(?:[^\n]*))$/gm
@@ -115,7 +115,7 @@ export function execLanguageRegExp(language: string) {
     case EnumLanguage.FSHARP:
     case EnumLanguage.JAVASCRIPT:
     case EnumLanguage.TYPESCRIPT:
-      return /^[ \t]*\/\/\s*(?:(#region)|#endregion)(?:[ ]+\S*)*$/gm
+      return /^[ \t]*\/\/\s*(?:(#region)|#endregion)(?:[  \t]+\S*)*$/gm
     default:
       return null
   }

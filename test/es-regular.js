@@ -1,5 +1,5 @@
 "use strict";
-// expression = /^[ ]*\/\/\s*(?:(#region)|#endregion)(?:[ ]+\S*)*$/mg
+// expression = /^[  \t]*\/\/\s*(?:(#region)|#endregion)(?:[ ]+\S*)*$/mg
 true;
 // #region
 // #endregion
