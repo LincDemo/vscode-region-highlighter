@@ -193,3 +193,27 @@ The decoration strategy chosen when the length of region blocks in the editor ex
 ## License
 
 [MIT](https://github.com/Wiensss/vscode-region-highlighter/blob/1.0.0/LICENSE)
+
+---
+
+## Linc Fork Version
+
+修复了 #7
+
+编译： (可用VSCode Codespace环境进行)
+
+```bash
+npm install
+# npm audit fix --force
+# npm install
+
+npm install -g vsce
+vsce package
+y
+```
+
+安装：
+
+扩展面板右上角 > 从 `.vsix` 中下载
+
+或 Ctrl Shift P: `Extension: install from VSIX...` | `扩展: 从 VSIX 安装`
