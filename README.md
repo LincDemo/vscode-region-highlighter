@@ -178,13 +178,19 @@ The decoration strategy chosen when the length of region blocks in the editor ex
 
 ## Release Notes
 
+## [1.0.3] - 2025-06-30
+
+by @LincZero
+
+add Chinese README，fix some README bug
+
 ## [1.0.2] - 2025-04-09
 
 by @LincZero
 
-修复了 #7
+fix #7
 
-编译： (可用VSCode Codespace环境进行)
+build： (can use *VSCode Codespace* env)
 
 ```bash
 npm install
@@ -196,11 +202,11 @@ vsce package
 y
 ```
 
-fork版本的安装：
+install (fork version)：
 
-扩展面板右上角 > 从 `.vsix` 中下载
+vscode Expansion panel > top right corner > `Extension: install from VSIX...`
 
-或 Ctrl Shift P: `Extension: install from VSIX...` | `扩展: 从 VSIX 安装`
+or Ctrl Shift P: `Extension: install from VSIX...`
 
 ## [1.0.2] - 2022-01-05
 
