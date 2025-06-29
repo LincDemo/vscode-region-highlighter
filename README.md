@@ -88,7 +88,7 @@ Default region backgroundColor theme, optional:
 ]
 ```
 
-#### `regionHighlighter.customColor`
+#### `regionHighlighter.customTheme`
 
 Only applies when `regionHighlighter.defaultTheme` is set to `Custom Theme`.
 

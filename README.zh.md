@@ -88,7 +88,7 @@
 ]
 ```
 
-#### `regionHighlighter.customColor`
+#### `regionHighlighter.customTheme`
 
 仅在 `regionHighlighter.defaultTheme` 设为 `Custom Theme` 时生效。
 
