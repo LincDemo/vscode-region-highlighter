@@ -1,5 +1,7 @@
 # Region Highlighter
 
+[English](./README.md) | [中文](./README.zh.md)
+
 **Region Highlighter** enhances the default region abilities of Visual Studio Code editor.
 
 Supports quick region generation or undo using commands, and provides a rich way of colorizing regions.
@@ -178,13 +180,13 @@ The decoration strategy chosen when the length of region blocks in the editor ex
 
 ## Release Notes
 
-## [1.0.3] - 2025-06-30
+### [1.0.3] - 2025-06-30
 
 by @LincZero
 
 add Chinese README，fix some README bug
 
-## [1.0.2] - 2025-04-09
+### [1.0.2] - 2025-04-09
 
 by @LincZero
 
@@ -208,13 +210,13 @@ vscode Expansion panel > top right corner > `Extension: install from VSIX...`
 
 or Ctrl Shift P: `Extension: install from VSIX...`
 
-## [1.0.2] - 2022-01-05
+### [1.0.2] - 2022-01-05
 
 - `docs`: change description of Language support
 
 - `feat`: support match language of golang and rust
 
-## [1.0.0] - 2022-01-02
+### [1.0.0] - 2022-01-02
 
 - first release!
 

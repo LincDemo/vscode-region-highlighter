@@ -1,5 +1,7 @@
 # Region Highlighter
 
+[English](./README.md) | [中文](./README.zh.md)
+
 **Region Highlighter** 增强了 Visual Studio Code 编辑器的默认区域功能。
 
 支持通过命令快速生成或撤销区域，并提供丰富的区域着色方式。
@@ -133,7 +135,7 @@ or
 
 > label属性将在未来用于自定义内嵌区域颜色
 
-##### `regionHighlighter.decorationStyle`
+#### `regionHighlighter.decorationStyle`
 
 默认区域装饰样式，可选值：
 
@@ -178,13 +180,13 @@ or
 
 ## Release Notes
 
-## [1.0.3] - 2025-06-30
+### [1.0.3] - 2025-06-30
 
 by @LincZero
 
 添加中文版README，修复旧README中的描述错误
 
-## [1.0.2] - 2025-04-09
+### [1.0.2] - 2025-04-09
 
 by @LincZero
 
@@ -208,13 +210,13 @@ fork版本的安装：
 
 或 Ctrl Shift P: `Extension: install from VSIX...` | `扩展: 从 VSIX 安装`
 
-## [1.0.2] - 2022-01-05
+### [1.0.2] - 2022-01-05
 
 - `docs`: change description of Language support
 
 - `feat`: support match language of golang and rust
 
-## [1.0.0] - 2022-01-02
+### [1.0.0] - 2022-01-02
 
 - first release!
 
